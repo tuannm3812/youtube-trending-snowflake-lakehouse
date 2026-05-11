@@ -1,0 +1,17 @@
+[project]
+name = "youtube-trending-snowflake-lakehouse"
+version = "0.1.0"
+description = "Snowflake lakehouse pipeline for ingesting, cleaning, and analyzing multi-country YouTube Trending data with optional live YouTube Data API refreshes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "python-dotenv>=1.0.1",
+  "requests>=2.32.3",
+  "pandas>=2.2.2",
+  "snowflake-connector-python>=3.12.2"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
