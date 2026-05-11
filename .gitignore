@@ -1,0 +1,23 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local generated data extracts can become large or contain API-derived payloads.
+data/raw/live/
+data/processed/
+*.parquet
+*.csv
+*.jsonl
+
+# Keep curated static Kaggle inputs in this project.
+!data/raw/static/**/*.csv
+!data/raw/static/**/*.json
+
+# Keep office temp files out of the repository.
+~$*.docx
+*.tmp

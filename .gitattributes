@@ -1,0 +1,5 @@
+# Static Kaggle inputs are sizeable. If Git LFS is enabled, these patterns will
+# keep repository clones lighter while still preserving the exact source files.
+data/raw/static/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/static/**/*.json text eol=lf
+
