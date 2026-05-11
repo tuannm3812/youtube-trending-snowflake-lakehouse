@@ -7,10 +7,6 @@
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-0B6E69)
 
 <p align="center">
-  <img src="assets/banner.svg" alt="YouTube Trending Snowflake Lakehouse banner" width="100%">
-</p>
-
-<p align="center">
   <img src="assets/youtube-trending-hero.jpeg" alt="YouTube analytics dashboard on a laptop" width="86%">
 </p>
 
